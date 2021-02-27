@@ -1,5 +1,6 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Avenir, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -17,13 +18,24 @@ body {
   padding-top: 0px;
   background-color: rgba(255, 255, 255, 0.4);
 }
-
+.navbar-nav {
+  a.nav-link {
+    color: black !important;
+    &:hover {
+      color: blue i !important;
+    }
+  }
+}
+.logo {
+  width: 200px;
+}
 h1,
 h2,
 p,
 ul,
 li {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Avenir, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 ul.header li {

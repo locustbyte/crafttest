@@ -1,9 +1,9 @@
 {
   "name": "reactjs-node-and-bootstrap-boilerplate",
   "version": "1.0.0",
-  "description": "ReactJs, Node and Bootstrap boiler plate template to get started in making a website in ReactJs",
+  "description": "ReactJs, Node and Bootstrap test for Craft",
   "main": "server.js",
-  "author": "Neil Redfern",
+  "author": "Tan Kent",
   "scripts": {
     "test": "",
     "start": "node server",
